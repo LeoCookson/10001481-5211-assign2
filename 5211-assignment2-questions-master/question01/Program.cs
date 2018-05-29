@@ -6,7 +6,7 @@ namespace question01
     {
         static string Greeting(string fname, string lname) {
 
-            return "Hello (fname) (lname) enjoy this assignemnt :-)";
+            return $"Hello {fname} {lname} enjoy this assignemnt :-)";
         }
         static void Main(string[] args)
         {
