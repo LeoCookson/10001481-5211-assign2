@@ -10,7 +10,7 @@ namespace question04
 
             var number = int.TryParse(Console.ReadLine(), out int Number);
 
-            for(var i = 0; i < 12; i++) {
+            for(var i = 11; i >= 0; i--) {
                 int a = i + 1;
                 Console.WriteLine($"{a} x {Number} = {a * Number}");
             }
